@@ -1,0 +1,31 @@
+//button
+
+@mixin btn($btn-image, $border-radius, $btn-color, $btn-padding, $btn-margin, $btn-shadow, $btn-shadow-in, $btn-border, $act-btn-image,
+    $act-btn-shadow, $act-btn-shadow-in)
+{
+    background-image: $btn-image;
+    border-radius: $border-radius;
+    padding: $btn-padding;
+    margin: $btn-margin;    
+    background-color: $btn-color;
+    box-shadow: $btn-shadow;
+    box-shadow: $btn-shadow-in;
+    border: $btn-border;
+    
+    &:hover {
+        background-image: $act-btn-image;
+        box-shadow: $act-btn-shadow;
+        box-shadow: $act-btn-shadow-in;
+    }
+}
+
+
+
+//button gradient border
+
+@mixin btn-grad-border($size, $border-rad, $border-grad-color){
+    padding: $size;
+    border-radius: $border-rad;
+    background: linear-gradient($border-grad-color);
+    
+}

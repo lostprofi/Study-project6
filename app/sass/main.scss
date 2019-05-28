@@ -1,0 +1,63 @@
+@import "_custom.scss", "_mixins.scss";
+
+//Required bootstrap modules
+@import "../libs/node_modules/bootstrap/scss/_functions.scss",
+"../libs/node_modules/bootstrap/scss/_variables.scss",
+"../libs/node_modules/bootstrap/scss/_mixins.scss";
+
+//Optional bootstrap modules
+@import "../libs/node_modules/bootstrap/scss/_grid.scss",
+        "../libs/node_modules/bootstrap/scss/_reboot.scss",
+        "../libs/node_modules/bootstrap/scss/_navbar.scss",
+        "../libs/node_modules/bootstrap/scss/_input-group.scss",
+        "../libs/node_modules/bootstrap/scss/_forms.scss",
+        "../libs/node_modules/bootstrap/scss/_utilities.scss";
+
+//Optional swiper modules
+
+@import "../../node_modules/swiper/src/swiper.scss", "../../node_modules/swiper/src/components/navigation/navigation.scss";
+
+//My modules
+
+@import "header/_header.scss", "aside/_aside.scss", "general/_general.scss";
+
+//fonts
+@font-face {
+    font-family: "Chelsea Market";
+    src: url(../fonts/Chelsea_Market_Regular.ttf) format('truetype');
+};
+
+@font-face {
+    font-family: "Telegrafico";
+    src: url(../fonts/Telegrafico.ttf) format('truetype');
+};
+
+@font-face {
+    font-family: "Terminal Dosis Book";
+    src: url(../fonts/Terminal_Dosis_Book.ttf) format('truetype');
+};
+
+@font-face {
+    font-family: "Terminal Dosis Light";
+    src: url(../fonts/Terminal_Dosis_Light.ttf) format('truetype');
+};
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(../fonts/Myriad_Pro_Regular.otf) format('opentype');
+};
+
+//
+
+
+body {
+    width: 1474px;
+    background: url('../img/body-background.png') no-repeat top;
+    
+}
+
+
+
+
+
+

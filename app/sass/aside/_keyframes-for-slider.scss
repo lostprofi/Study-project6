@@ -1,0 +1,96 @@
+//keyframes for slider//
+
+@keyframes op {
+    0% {opacity: 0;}
+    1% {opacity: 1;} 
+    19.99% {opacity: 1;}   
+    20% {opacity: 0;}
+    100% {opacity: 0;
+    z-index: 5;}  
+}
+
+@keyframes op-1 {
+    19.99% {opacity: 1;
+         z-index: 4;}
+    20% {z-index: 6;}
+    39.99% {opacity: 1;}
+    40% {opacity: 0;}
+    100% {opacity: 0;
+    z-index: 4;}  
+}
+
+@keyframes op-2 {
+    39.99% {opacity: 1;
+         z-index: 3;}
+    40% {z-index: 7;}
+    59.99% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;
+    z-index: 3;}
+}
+
+@keyframes op-3 {
+    59.99% {opacity: 1;
+         z-index: 2;}
+    60% {z-index: 8;}
+    79.99% {opacity: 1;}
+    80% {opacity: 0;}
+    100% {opacity: 0;
+          z-index: 2;}
+}
+
+@keyframes op-4 {
+    79.99% {opacity: 1;
+         z-index: 1;}
+    80% {z-index: 9}
+    99%{opacity: 1;}
+    100% {opacity: 1;
+    z-index: 9}
+}
+
+///////////////////
+
+///keyframes for pagination///
+                
+            @keyframes pag {
+                0%   { border: 5px solid white;}
+                1%   { border: 5px solid white;} 
+                19.99%  { border: 5px solid white;}   
+                20%  { border: 2px solid white;}
+                100% { border: 2px solid white;} 
+            }
+        
+            @keyframes pag-1 {
+                0%   {border: 2px solid white;} 
+                19.99%  {border: 2px solid white;}
+                20%  {border: 5px solid white;}
+                39.99%  {border: 5px solid white;}
+                40%  {border: 2px solid white;}
+                100% {border: 2px solid white;} 
+            }
+        
+            @keyframes pag-2 {
+                0%   {border: 2px solid white;}
+                39.99%  {border: 2px solid white;}
+                40%  {border: 5px solid white;}
+                59.99%  {border: 5px solid white;}
+                60%  {border: 2px solid white;}
+                100% {border: 2px solid white;}
+            }
+        
+            @keyframes pag-3 {
+                0%   {border: 2px solid white;}
+                59.99%  {border: 2px solid white;}
+                60%  {border: 5px solid white;}
+                79.99%  {border: 5px solid white;}
+                80%  {border: 2px solid white;}
+                100% {border: 2px solid white;}
+            }
+        
+            @keyframes pag-4 {
+                0% {border: 2px solid white;}
+                79.99% {border: 2px solid white;}
+                80% {border: 5px solid white;}
+                100%{border: 5px solid white;}
+            }
+                /////
